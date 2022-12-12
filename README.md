@@ -16,7 +16,6 @@ pip install -r requirements.txt
 python create_audio_files.py
 ```
 
-
 Затем нужно очистить звук от лишней тишины скриптом clear_empty.py: 
 ```
 python clear_empty.py
