@@ -84,19 +84,19 @@ def run_and_voice(path: str, range_voice: iter, rec_seconds: int = RECORD_SECOND
 def write_all_files() -> bool:
     """Write down all the necessary files"""
     print("Записываем дни, например: 'первое', 'второе' и т.д.")
-    run_and_voice("audio_clear/numbers_day", range(1, 32))
+    run_and_voice("audio/numbers_day", range(1, 32))
 
     print("Записываем названия месяцев, например: 'мая', 'ноября' и т.д.")
-    run_and_voice("audio_clear/month", months)
+    run_and_voice("audio/month", months)
 
     print("Записываем числа минут, например: 'одна', 'двадцать восемь и т.д.")
-    run_and_voice("audio_clear/numbers_minute", range(0, 60))
+    run_and_voice("audio/numbers_minute", range(0, 60))
 
     print("Записываем числа минут, например: 'одна', 'двадцать восемь и т.д.")
-    run_and_voice("audio_clear/numbers_hour", range(0, 24))
+    run_and_voice("audio/numbers_hour", range(0, 24))
 
     print("Записываем различные слова:")
-    run_and_voice("audio_clear/else", words_list)
+    run_and_voice("audio/else", words_list)
     return True
 
 

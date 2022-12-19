@@ -61,6 +61,8 @@ def get_datetime_audio() -> bool:
 
     get_h_m_type(now.minute, "minute")
 
+    get_sound(f"else/2000.wav")
+    get_sound(f"else/22.wav")
     get_sound(f"else/year.wav")
     return True
 
