@@ -3,14 +3,10 @@
 
 
 # Запуск Проекта 
+Создайте папку json
 Создайте папки audio и audio_clear
 а в них папки else, month, numbers_day, numbers_hour, numbers_minute
-Так же создайте папку json
-```
-virtualenv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
+
 Создайте виртуальную среду Python и установите зависимости:
 ```
 virtualenv venv
