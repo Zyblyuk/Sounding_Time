@@ -45,7 +45,7 @@ def write_audio(filename: str, rec_seconds) -> bool:
 
     frames = []
 
-    for i in range(0, int(RATE / N_CHUNK * rec_seconds)):
+    for _ in range(0, int(RATE / N_CHUNK * rec_seconds)):
         data = stream.read(N_CHUNK)
         frames.append(data)
 
